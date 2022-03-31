@@ -1,0 +1,33 @@
+<html>
+ <head>
+ <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+ </head>
+<body>
+
+1)Zewnętrzny arkusz stylów.<br>
+head <br>
+link rel="Stylesheet" type="text/css" href="style.css" /<br>
+/head<br>
+2)Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli <br>
+dopisanie arkusza do wybranego bloku treści strony.<br>
+selektor style="cecha1: wartość1; cecha2: wartość2...".../selektor<br>
+head<br>
+ style type="text/css"><br>
+ selektor1 { cecha: wartość; cecha2: wartość2... }<br>
+ selektor2 { cecha: wartość; cecha2: wartość2... }<br>
+ /style<br>
+ /head<br>
+ 4)Alternatywny arkusz stylów.<br>
+head<br>
+link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" /><br>
+link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" /><br>
+link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" /><br>
+/head<br>
+5)Import arkusza stylów.<br>
+style type="text/css"<br>
+ @import url(adres zewnętrznego arkusza stylów);<br>
+/style<br>
+/head<br>
+</head>
+</body>
+</html>
